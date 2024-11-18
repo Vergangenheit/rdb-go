@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/tommy351/rdb-go"
-	"github.com/tommy351/rdb-go/internal/convert"
+	"github.com/Vergangenheit/rdb-go"
+	"github.com/Vergangenheit/rdb-go/internal/convert"
 )
 
 type JSONPrinter struct {

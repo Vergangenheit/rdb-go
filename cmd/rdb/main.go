@@ -8,8 +8,8 @@ import (
 	"os"
 	"strings"
 
+	"github.com/Vergangenheit/rdb-go"
 	"github.com/spf13/cobra"
-	"github.com/tommy351/rdb-go"
 )
 
 // nolint: gochecknoglobals

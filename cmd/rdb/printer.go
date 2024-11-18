@@ -1,6 +1,6 @@
 package main
 
-import "github.com/tommy351/rdb-go"
+import "github.com/Vergangenheit/rdb-go"
 
 type Printer interface {
 	Start() error

@@ -1,4 +1,4 @@
-module github.com/tommy351/rdb-go
+module github.com/Vergangenheit/rdb-go
 
 go 1.14
 

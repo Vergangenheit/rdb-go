@@ -3,7 +3,7 @@ package rdb
 import (
 	"fmt"
 
-	"github.com/tommy351/rdb-go/internal/convert"
+	"github.com/Vergangenheit/rdb-go/internal/convert"
 )
 
 // SortedSetValue contains the value and its score of a sorted set entry.

@@ -3,7 +3,7 @@ package rdb
 import (
 	"fmt"
 
-	"github.com/tommy351/rdb-go/internal/convert"
+	"github.com/Vergangenheit/rdb-go/internal/convert"
 )
 
 // HashValue contains a key-value pair of a hash entry.
