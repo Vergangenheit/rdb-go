@@ -48,7 +48,7 @@ const (
 	encLZF   = 3
 
 	minVersion = 1
-	maxVersion = 9
+	maxVersion = 11
 
 	rdbModuleOpcodeEOF    = 0
 	rdbModuleOpcodeSInt   = 1
