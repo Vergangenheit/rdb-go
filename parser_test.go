@@ -133,9 +133,9 @@ var _ = Describe("Parser", func() {
 
 	When("version > 11", func() {
 		It("should return UnsupportedVersionError", func() {
-			parser := NewParser(bytes.NewBufferString("REDIS0012"))
+			parser := NewParser(bytes.NewBufferString("REDIS0013"))
 			_, err := parser.Next()
-			Expect(err).To(Equal(UnsupportedVersionError{Version: 12}))
+			Expect(err).To(Equal(UnsupportedVersionError{Version: 13}))
 		})
 	})
 
